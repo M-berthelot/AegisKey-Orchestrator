@@ -1,0 +1,30 @@
+# Build artifacts
+/target
+**/*.rs.bk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Encrypted outputs
+*.enc
+*.aegis
+
+# Reports (generated)
+report.json
+/reports/
+
+# Environment — DO NOT commit secrets to version control
+# env/.env          ← see env/.env.example instead
+# (Seriously, if you commit .env to a public repo, we will find you.)
+
+# Logs
+*.log
+/logs/
