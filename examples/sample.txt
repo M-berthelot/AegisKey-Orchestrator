@@ -1,0 +1,13 @@
+This is a sample plaintext file for AegisKey-Orchestrator.
+
+You can use this file to test the encrypt/decrypt workflow:
+
+    aegiskey encrypt examples/sample.txt encrypted.aegis
+    aegiskey decrypt encrypted.aegis recovered.txt
+    diff examples/sample.txt recovered.txt
+
+If the diff produces no output, everything works correctly.
+
+── Malwarius Infrastructure Team ──
+"Quis custodiet ipsos custodes?" — Juvenal
+(Who watches the watchmen? We do. With AES-256-GCM.)
